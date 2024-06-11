@@ -1,0 +1,20 @@
+.newsletter-texte {
+  color: var(--Rouge-orang, #ff0c0c);
+  font-family: "IBM Plex Mono";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 80px; /* 160% */
+  text-transform: uppercase;
+  background: var(--blue-electric, #0012b6);
+  margin: 90 235 90 235;
+}
+
+.newsletter-15 {
+  text-decoration: underline;
+  color: white;
+}
+
+.newsletter {
+  background: var(--blue-electric, #0012b6);
+}
