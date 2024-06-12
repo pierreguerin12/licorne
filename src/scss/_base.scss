@@ -53,6 +53,22 @@ footer {
 .logo-header {
   z-index: 1;
 }
+.achete {
+  border: 2px solid var(--Rouge-orang, #ff0c0c);
+  color: var(--Rouge-orang, #ff0c0c);
+  font-family: "IBM Plex Mono";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  padding: 20px 100px;
+}
+
+.achete:hover {
+  background-color: #ff0c0c;
+  color: white;
+}
 /* ====================================
 // base rules
 // ==================================== */
