@@ -1,14 +1,15 @@
 .header-biere-1 {
   position: relative;
-  bottom: 0px;
-  left: 650px;
+  bottom: -6px;
+  left: 658px;
+  border: var(--Rouge-orang, #ff0c0c);
 }
 
 .header-biere-2 {
   position: relative;
-  bottom: 550px;
-  left: 550px;
-  margin: 0px 0px -500px 0px;
+  bottom: -80px;
+  right: 100px;
+  border: var(--Rouge-orang, #ff0c0c);
 }
 
 .logo-header {

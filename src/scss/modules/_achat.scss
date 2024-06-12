@@ -8,9 +8,37 @@
   line-height: normal;
   text-transform: uppercase;
   padding: 20px 100px;
+  text-align: center;
 }
 
 .achete:hover {
   background-color: #ff0c0c;
   color: white;
+}
+
+.titre {
+  border: 2px solid var(--Rouge-orang, #ff0c0c);
+  color: var(--Rouge-orang, #ff0c0c);
+  font-family: "IBM Plex Mono";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  padding: 20px 100px;
+  text-align: center;
+}
+
+.contenu {
+  color: var(--Rouge-orang, #ff0c0c);
+  font-family: "IBM Plex Mono";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  border: 2px solid var(--Rouge-orang, #ff0c0c);
+  border-top: 0px;
+  border-bottom: 0px;
+  padding: 90px 60px 100px 40px;
 }

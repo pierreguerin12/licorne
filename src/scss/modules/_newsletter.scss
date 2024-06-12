@@ -15,7 +15,7 @@
 
 .newsletter {
   background: var(--blue-electric, #0012b6);
-  padding: 90px 224px;
+  padding: 80px 240px;
 }
 
 .bingo {
@@ -28,15 +28,15 @@
   font-weight: 600;
   text-transform: uppercase;
   background: var(--blue-electric, #0012b6);
-  padding: 10px 30px;
-  border-top-left-radius: 150px 75px;
-  border-top-right-radius: 150px 75px;
-  border-bottom-right-radius: 150px 75px;
-  border-bottom-left-radius: 150px 75px;
+  padding: 30px 150px;
+  border-top-left-radius: 200px 50px;
+  border-top-right-radius: 200px 50px;
+  border-bottom-right-radius: 200 50px;
+  border-bottom-left-radius: 200 50px;
   border: 2px solid var(--Rouge-orang, #ff0c0c);
   position: relative;
-  bottom: 60px;
-  left: 850px;
+  bottom: 50px;
+  left: 600px;
   border: 1px solid var(--Rouge-orang, #ff0c0c);
   transition: background-color 0.3s;
 }
