@@ -1,12 +1,11 @@
 .newsletter-texte {
   color: var(--Rouge-orang, #ff0c0c);
   font-family: "IBM Plex Mono";
-  font-size: 20px;
+  font-size: 50px;
   font-style: normal;
   font-weight: 600;
   text-transform: uppercase;
   background: var(--blue-electric, #0012b6);
-  margin: 90 235 90 235;
 }
 
 .newsletter-15 {
@@ -16,4 +15,13 @@
 
 .newsletter {
   background: var(--blue-electric, #0012b6);
+  padding: 90px 224px;
+}
+
+.bingo {
+  border-radius: 343px;
+  border: 2px solid var(--Rouge-orang, #ff0c0c);
+  background-color: #0012b6;
+  color: #ff0c0c;
+  padding: 20px 60px;
 }
