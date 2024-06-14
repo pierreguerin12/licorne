@@ -13,12 +13,116 @@
   padding: 80px;
 }
 
-.fribourg:hover {
-  background-color: #ff0c0c;
-  border: #ff0c0c;
+.shop-fribourg-hovered {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0%;
+  transition: all 0.3s;
+  background-color: white;
+  border: solid 2px #ff0c0c;
+  padding: 40px;
 }
 
-.fribourg {
-  background-color: #ff0c0c;
-  border: #ff0c0c;
+.shop-fribourg {
+  position: relative;
+  width: 341px;
+}
+
+.fribourg-img {
+  width: 100%;
+}
+
+.shop-fribourg-hovered:hover {
+  opacity: 100%;
+}
+
+.shop-fribourg-hovered span {
+  color: var(--Rouge-orang, #ff0c0c);
+  font-family: Figtree;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+}
+
+.shop-estavayer-hovered {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0%;
+  transition: all 0.3s;
+  background-color: white;
+  border: solid 2px #ff0c0c;
+  padding: 40px;
+}
+
+.shop-estavayer {
+  position: relative;
+  width: 341px;
+}
+
+.estavayer-img {
+  width: 100%;
+}
+
+.shop-estavayer-hovered:hover {
+  opacity: 100%;
+}
+
+.shop-estavayer-hovered span {
+  color: var(--Rouge-orang, #ff0c0c);
+  font-family: Figtree;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+}
+
+.shop-festival-hovered {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0%;
+  transition: all 0.3s;
+  background-color: white;
+  border: solid 2px #ff0c0c;
+  padding: 40px;
+}
+
+.shop-festival {
+  position: relative;
+  width: 341px;
+}
+
+.festival-img {
+  width: 100%;
+}
+
+.shop-festival-hovered:hover {
+  opacity: 100%;
+}
+
+.shop-festival-hovered span {
+  color: var(--Rouge-orang, #ff0c0c);
+  font-family: Figtree;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
 }
